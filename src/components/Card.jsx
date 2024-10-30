@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import '../../public/css/card.css';
-// import image from '../../public/assets/vite.svg'
 
 export default function Card({cartData}){
     return(
