@@ -1,0 +1,45 @@
+.card{
+    width: 200px;
+    background-color: #ecebeb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-block: 5px;
+    padding-inline: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cardImage{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/vite.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-bottom: 5px;
+}
+.card-text{
+  display: flex;
+  flex-direction: column;
+}
+.card-description{
+    font-size: 12px;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  max-height: 70px;
+  overflow: hidden;
+}
+.card-button{
+    width: 100%;
+    background-color: #efc931;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-align: center;
+    align-self: center;
+}
